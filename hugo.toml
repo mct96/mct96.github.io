@@ -1,4 +1,4 @@
 baseURL = 'https://mct96.github.io/'
 languageCode = 'en-us'
 title = 'mct96'
-theme = 'paper'
+theme = 'custom-paper'
