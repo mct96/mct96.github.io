@@ -27,7 +27,7 @@
       <link>https://mct96.github.io/posts/my-first-post/</link>
       <pubDate>Sat, 20 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://mct96.github.io/posts/my-first-post/</guid>
-      <description>Shannon entropy $H(X) = - \sum_{x \in X} p(x) \cdot log p(x)$</description>
+      <description>Shannon entropy $ H(X) = - \sum_{x \in X} p(x) \cdot log p(x) $</description>
     </item>
   </channel>
 </rss>
