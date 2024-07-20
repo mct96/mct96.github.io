@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on mct96</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://mct96.github.io/posts/</link>
     <description>Recent content in Posts on mct96</description>
     <generator>Hugo -- 0.129.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 20 Jul 2024 15:50:11 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mct96.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Post_3</title>
-      <link>http://localhost:1313/posts/post_3/</link>
+      <link>https://mct96.github.io/posts/post_3/</link>
       <pubDate>Sat, 20 Jul 2024 15:50:11 -0400</pubDate>
-      <guid>http://localhost:1313/posts/post_3/</guid>
+      <guid>https://mct96.github.io/posts/post_3/</guid>
       <description>#Test #Test</description>
     </item>
     <item>
       <title>Post_2</title>
-      <link>http://localhost:1313/posts/post_2/</link>
+      <link>https://mct96.github.io/posts/post_2/</link>
       <pubDate>Sat, 20 Jul 2024 15:49:42 -0400</pubDate>
-      <guid>http://localhost:1313/posts/post_2/</guid>
+      <guid>https://mct96.github.io/posts/post_2/</guid>
       <description>#Test #Test</description>
     </item>
     <item>
       <title>Entropy</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>https://mct96.github.io/posts/my-first-post/</link>
       <pubDate>Sat, 20 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>Shannon entropy $$H(X) = - \sum_{x \in X} p(x) \cdot log p(x)$$ </description>
+      <guid>https://mct96.github.io/posts/my-first-post/</guid>
+      <description>Shannon entropy $H(X) = - \sum_{x \in X} p(x) \cdot log p(x)$</description>
     </item>
   </channel>
 </rss>

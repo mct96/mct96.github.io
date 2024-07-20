@@ -10,7 +10,7 @@ ShowToc = true
 
 ## Shannon entropy
 
-$$H(X) = - \sum_{x \in X} p(x) \cdot log p(x)$$
+$H(X) = - \sum_{x \in X} p(x) \cdot log p(x)$
 
 
 <code>
