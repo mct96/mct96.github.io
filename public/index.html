@@ -20,6 +20,7 @@
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml">
+<link rel="alternate" type="application/json" href="http://localhost:1313/index.json">
 <link rel="alternate" hreflang="en" href="http://localhost:1313/">
 <noscript>
     <style>
@@ -58,6 +59,20 @@
 
     </style>
 </noscript>
+  
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+<script>
+MathJax = {
+  tex: {
+      inlineMath: [['$', '$']]
+      displayMath: [['\\[', '\\]']],
+  }
+};
+</script>
+
+  
 </head>
 
 <body class="list" id="top">
@@ -100,10 +115,83 @@
             </div>
         </div>
         <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="Posts">
+                    <span class="active">Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
 <main class="main"> 
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>Hi there ✌️</h1>
+    </header>
+    <div class="entry-content">
+        Hello welcome! This is my personal blog. I write about specific subjects about mathematics, statistics, artificial intelligence and algorithms.
+    </div>
+    <footer class="entry-footer">
+        <div class="social-icons" >
+    <a href="https://github.com/mct96" target="_blank" rel="noopener noreferrer me"
+        title="Github">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+    </a>
+</div>
+
+    </footer>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Post_3
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>#Test #Test</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-07-20 15:50:11 -0400 -04'>July 20, 2024</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Post_3" href="http://localhost:1313/posts/post_3/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Post_2
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>#Test #Test</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-07-20 15:49:42 -0400 -04'>July 20, 2024</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Post_2" href="http://localhost:1313/posts/post_2/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Entropy
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Shannon entropy $$H(X) = - \sum_{x \in X} p(x) \cdot log p(x)$$ </p>
+  </div>
+  <footer class="entry-footer"><span title='2024-07-20 00:00:00 +0000 UTC'>July 20, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Matheus Cândido Teixeira</footer>
+  <a class="entry-link" aria-label="post link to Entropy" href="http://localhost:1313/posts/my-first-post/"></a>
+</article>
     </main>
     
 <footer class="footer">
