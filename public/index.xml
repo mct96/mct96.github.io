@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>mct96</title>
-    <link>https://mct96.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on mct96</description>
     <generator>Hugo -- 0.129.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 21 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mct96.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Code Quality</title>
-      <link>https://mct96.github.io/posts/quality/</link>
+      <link>http://localhost:1313/posts/quality/</link>
       <pubDate>Sun, 21 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://mct96.github.io/posts/quality/</guid>
+      <guid>http://localhost:1313/posts/quality/</guid>
       <description>Static code analysis (SCA) Static code analysis (SCA) is a method used in software engineering to analyze the source code of a program without actually executing it. This technique aims to identify potential errors, vulnerabilities, and code quality issues early in the development lifecycle. By examining the code statically, developers can catch problems that might not be apparent during runtime, leading to more robust and secure software.
 Key Aspects of Static Code Analysis Purpose and Benefits Early Detection of Errors: SCA tools can identify syntax errors, semantic issues, and other potential bugs before the software is run.</description>
     </item>
     <item>
       <title>Requirements Engineering</title>
-      <link>https://mct96.github.io/posts/requirements_engineering/</link>
+      <link>http://localhost:1313/posts/requirements_engineering/</link>
       <pubDate>Sun, 21 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://mct96.github.io/posts/requirements_engineering/</guid>
+      <guid>http://localhost:1313/posts/requirements_engineering/</guid>
       <description>Backlog Management Backlog management is a critical aspect of agile project management, particularly in methodologies like Scrum and Kanban. It involves the continuous process of creating, refining, and prioritizing the list of work items, known as the backlog, that need to be completed for a project. Effective backlog management ensures that the team works on the most valuable and relevant tasks, aligns with the project&amp;rsquo;s goals, and adapts to changes efficiently.</description>
     </item>
   </channel>

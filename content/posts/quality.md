@@ -18,20 +18,20 @@ and secure software.
 ## Key Aspects of Static Code Analysis
 
 ### Purpose and Benefits
-- Early Detection of Errors: SCA tools can identify syntax errors, semantic
+- **Early Detection of Errors**: SCA tools can identify syntax errors, semantic
   issues, and other potential bugs before the software is run. This helps in
   reducing the number of defects that make it to the testing phase.
-- Security Vulnerabilities: Many SCA tools include checks for common security
-  vulnerabilities such as SQL injection, cross-site scripting (XSS), and buffer
-  overflows. Identifying these issues early can significantly enhance the
-  security posture of the software.
-- Code Quality: SCA helps enforce coding standards and best practices, ensuring
-  consistency and maintainability. It can also detect code smells, which are
-  indicative of deeper problems in the codebase.
-- Cost Efficiency: Fixing issues early in the development process is generally
-  less costly than addressing them later in the lifecycle, such as during
-  integration testing or post-release.
-- Improved Documentation: SCA tools often generate detailed reports on code
+- **Security Vulnerabilities**: Many SCA tools include checks for common
+  security vulnerabilities such as SQL injection, cross-site scripting (XSS),
+  and buffer overflows. Identifying these issues early can significantly enhance
+  the security posture of the software.
+- **Code Quality**: SCA helps enforce coding standards and best practices,
+  ensuring consistency and maintainability. It can also detect code smells,
+  which are indicative of deeper problems in the codebase.
+- **Cost Efficiency**: Fixing issues early in the development process is
+  generally less costly than addressing them later in the lifecycle, such as
+  during integration testing or post-release.
+- **Improved Documentation**: SCA tools often generate detailed reports on code
   structure, complexity, and dependencies, which can serve as valuable
   documentation for the development team.
 
@@ -39,69 +39,70 @@ and secure software.
 
 Static code analysis involves various techniques and tools, each with specific
 capabilities:
-- Lexical Analysis: This technique involves scanning the code for tokens, which
-  are the smallest units of meaning. It helps identify syntax errors and simple
-  structural issues.
-- Syntax Analysis: Also known as parsing, this technique checks the code against
-  the grammatical rules of the programming language. It ensures that the code is
-  syntactically correct.
-- Semantic Analysis: This technique goes beyond syntax to examine the meaning of
-  the code. It checks for issues like type mismatches, undeclared variables, and
-  logic errors.
-- Control Flow Analysis: This technique involves analyzing the control flow of
-  the program to detect unreachable code, infinite loops, and other flow-related
-  issues.
-- Data Flow Analysis: This technique tracks the flow of data through the code to
-  identify potential issues such as uninitialized variables, unused variables,
-  and potential null pointer dereferences.
+- **Lexical Analysis**: This technique involves scanning the code for tokens,
+  which are the smallest units of meaning. It helps identify syntax errors and
+  simple structural issues.
+- **Syntax Analysis**: Also known as parsing, this technique checks the code
+  against the grammatical rules of the programming language. It ensures that the
+  code is syntactically correct.
+- **Semantic Analysis**: This technique goes beyond syntax to examine the
+  meaning of the code. It checks for issues like type mismatches, undeclared
+  variables, and logic errors.
+- **Control Flow Analysis**: This technique involves analyzing the control flow
+  of the program to detect unreachable code, infinite loops, and other
+  flow-related issues.
+- **Data Flow Analysis**: This technique tracks the flow of data through the
+  code to identify potential issues such as uninitialized variables, unused
+  variables, and potential null pointer dereferences.
 
 ### Popular static code analysis tools include:
 
-- SonarQube: An open-source platform that performs static code analysis to
+- **SonarQube**: An open-source platform that performs static code analysis to
   detect bugs, vulnerabilities, and code smells. It supports multiple
   programming languages.
-- Coverity: A commercial tool that provides deep static analysis capabilities,
-  particularly focused on security and quality.
-- Pylint: A tool for Python that checks for errors in Python code, enforces a
-  coding standard, and looks for code smells.
-- FindBugs/SpotBugs: Tools for Java that analyze bytecode to find common
+- **Coverity**: A commercial tool that provides deep static analysis
+  capabilities, particularly focused on security and quality.
+- **Pylint**: A tool for Python that checks for errors in Python code, enforces
+  a coding standard, and looks for code smells.
+- **FindBugs/SpotBugs**: Tools for Java that analyze bytecode to find common
   programming errors and potential bugs.
 
 ## Challenges and Limitations
 
 ### While static code analysis offers many benefits, it also has some limitations
 
-- False Positives: SCA tools can generate false positives, which are issues
+- **False Positives**: SCA tools can generate false positives, which are issues
   reported by the tool that are not actual problems. This can lead to wasted
   time and effort in investigating non-issues.
-- False Negatives: Some tools might miss certain issues, leading to a false
+- **False Negatives**: Some tools might miss certain issues, leading to a false
   sense of security. This can be due to the limitations of the tool or the
   complexity of the code.
-- Tool Configuration: SCA tools require proper configuration and tuning to be
-  effective. Misconfigured tools can lead to missed issues or an overwhelming
+- **Tool Configuration**: SCA tools require proper configuration and tuning to
+  be effective. Misconfigured tools can lead to missed issues or an overwhelming
   number of false positives.
-- Integration: Integrating SCA into the development workflow requires effort. It
-  needs to be seamlessly integrated into CI/CD pipelines to provide timely
-  feedback to developers.
-- Performance Overhead: Running SCA can be resource-intensive, particularly for
-  large codebases, potentially slowing down the development process.
+- **Integration**: Integrating SCA into the development workflow requires
+  effort. It needs to be seamlessly integrated into CI/CD pipelines to provide
+  timely feedback to developers.
+- **Performance Overhead**: Running SCA can be resource-intensive, particularly
+  for large codebases, potentially slowing down the development process.
 
 ## Best Practices
 
 To maximize the benefits of static code analysis, consider the following best
 practices:
-- Integrate Early: Integrate SCA tools into the development process as early as
-  possible. Run analysis on each commit or pull request to catch issues early.
-- Automate: Use automation to run SCA as part of the continuous integration (CI)
-  pipeline. This ensures consistent and timely analysis.
-- Customize Rules: Customize the rules and checks of the SCA tool to match your
-  project's coding standards and requirements. This helps in reducing false
+- **Integrate Early**: Integrate SCA tools into the development process as early
+  as possible. Run analysis on each commit or pull request to catch issues
+  early.
+- **Automate**: Use automation to run SCA as part of the continuous integration
+  (CI) pipeline. This ensures consistent and timely analysis.
+- **Customize Rules**: Customize the rules and checks of the SCA tool to match
+  your project's coding standards and requirements. This helps in reducing false
   positives and focusing on relevant issues.
-- Prioritize Issues: Not all reported issues are equally important. Prioritize
-  and address the most critical issues first, particularly those related to
-  security and functionality.
-- Review Regularly: Regularly review and update the configuration of your SCA
-  tools to ensure they remain effective as your codebase evolves.
+- **Prioritize Issues**: Not all reported issues are equally
+  important. Prioritize and address the most critical issues first, particularly
+  those related to security and functionality.
+- **Review Regularly**: Regularly review and update the configuration of your
+  SCA tools to ensure they remain effective as your codebase evolves.
 
 
 # Unit Test
@@ -115,70 +116,71 @@ each unit of the software performs as expected.
 ## Key Aspects of Unit Testing
 
 ### Purpose and Benefits
-- Early Detection of Bugs: Unit tests help identify and fix bugs at an early
+- **Early Detection of Bugs**: Unit tests help identify and fix bugs at an early
   stage in the development process, reducing the likelihood of defects in later
   stages.
-- Simplifies Integration: By ensuring that each unit works correctly in
+- **Simplifies Integration**: By ensuring that each unit works correctly in
   isolation, unit testing simplifies the integration process, as the focus can
   shift to verifying interactions between units.
-- Documentation: Unit tests can serve as documentation for the code. They
+- **Documentation**: Unit tests can serve as documentation for the code. They
   demonstrate how the code is supposed to work and provide examples of usage.
-- Refactoring Confidence: With a comprehensive suite of unit tests, developers
-  can refactor code with confidence, knowing that any regressions will be caught
-  by the tests.
-- Reduces Cost: Identifying and fixing bugs early in the development process is
-  generally less costly than fixing them in later stages or after release.
+- **Refactoring Confidence**: With a comprehensive suite of unit tests,
+  developers can refactor code with confidence, knowing that any regressions
+  will be caught by the tests.
+- **Reduces Cost**: Identifying and fixing bugs early in the development process
+  is generally less costly than fixing them in later stages or after release.
 
 ### Characteristics of Good Unit Tests
-- Isolated: Unit tests should be independent of each other and the environment,
-  ensuring that they test only the unit's functionality.
-- Fast: Unit tests should execute quickly to provide immediate feedback to
+- **Isolated**: Unit tests should be independent of each other and the
+  environment, ensuring that they test only the unit's functionality.
+- **Fast**: Unit tests should execute quickly to provide immediate feedback to
   developers.
-- Repeatable: Unit tests should yield the same results every time they are run,
-  regardless of the environment or the order in which they are executed.
-- Readable: Unit tests should be easy to read and understand, clearly outlining
-  the setup, execution, and verification phases.
-- Maintainable: Unit tests should be easy to maintain, with clear, concise code
-  that is kept up to date as the production code evolves.
+- **Repeatable**: Unit tests should yield the same results every time they are
+  run, regardless of the environment or the order in which they are executed.
+- **Readable**: Unit tests should be easy to read and understand, clearly
+  outlining the setup, execution, and verification phases.
+- **Maintainable**: Unit tests should be easy to maintain, with clear, concise
+  code that is kept up to date as the production code evolves.
 
 ### Frameworks and Tools
 
 Several frameworks and tools facilitate unit testing across different
 programming languages:
-- JUnit: A widely used framework for unit testing in Java.
-- NUnit: A popular framework for unit testing in .NET languages.
-- pytest: A robust and flexible framework for unit testing in Python.
-- JUnit: A widely-used testing framework for Java applications.
-- RSpec: A behavior-driven development (BDD) framework for unit testing in Ruby.
-- Google Test: A testing framework for C++.
+- **JUnit**: A widely used framework for unit testing in Java.
+- **NUnit**: A popular framework for unit testing in .NET languages.
+- **pytest**: A robust and flexible framework for unit testing in Python.
+- **JUnit**: A widely-used testing framework for Java applications.
+- **RSpec**: A behavior-driven development (BDD) framework for unit testing in Ruby.
+- **Google Test**: A testing framework for C++.
 
 ## Writing Unit Tests
 
 ### Writing effective unit tests involves several steps:
 
-- Identify Units: Determine the smallest testable parts of the application, such
-  as functions, methods, or classes.
-- Define Test Cases: For each unit, define test cases that cover various
+- **Identify Units**: Determine the smallest testable parts of the application,
+  such as functions, methods, or classes.
+- **Define Test Cases**: For each unit, define test cases that cover various
   scenarios, including typical usage, edge cases, and error conditions.
-- Set Up Test Environment: Set up the necessary environment for the test,
+- **Set Up Test Environment**: Set up the necessary environment for the test,
   including any required inputs and configurations.
-- Execute Tests: Run the tests to verify that the unit performs as expected.
-- Verify Results: Compare the actual output with the expected output to
+- **Execute Tests**: Run the tests to verify that the unit performs as expected.
+- **Verify Results**: Compare the actual output with the expected output to
   determine if the unit behaves correctly.
-- Refactor and Repeat: Refactor the production code and the tests as necessary,
-  continually running the tests to ensure correctness.
+- **Refactor and Repeat**: Refactor the production code and the tests as
+  necessary, continually running the tests to ensure correctness.
 
 ### Best Practices
-- Test-Driven Development (TDD): Adopt TDD, where tests are written before the
-  code, guiding the development process and ensuring thorough test coverage.
-- Keep Tests Simple: Write simple and focused tests that are easy to understand
-  and maintain.
-- Mocking and Stubbing: Use mocking and stubbing to isolate the unit being
+- **Test-Driven Development (TDD)**: Adopt TDD, where tests are written before
+  the code, guiding the development process and ensuring thorough test coverage.
+- **Keep Tests Simple**: Write simple and focused tests that are easy to
+  understand and maintain.
+- **Mocking and Stubbing**: Use mocking and stubbing to isolate the unit being
   tested from its dependencies, ensuring that tests remain focused on the unit's
   functionality.
-- Continuous Integration: Integrate unit tests into the continuous integration
-  (CI) pipeline to ensure that tests are run automatically on every code change.
-- Code Coverage: Use code coverage tools to measure how much of the code is
+- **Continuous Integration**: Integrate unit tests into the continuous
+  integration (CI) pipeline to ensure that tests are run automatically on every
+  code change.
+- **Code Coverage**: Use code coverage tools to measure how much of the code is
   exercised by the tests, aiming for high coverage but also ensuring that tests
   are meaningful.
 
@@ -211,9 +213,10 @@ if __name__ == '__main__':
 
 In this example:
 
-- The add function is the unit being tested.
-- The TestAddFunction class contains multiple test cases for different scenarios.
-- unittest.main() runs all the test cases.
+- The `add` function is the unit being tested.
+- The `TestAddFunction` class contains multiple test cases for different
+  scenarios.
+- `unittest.main()` runs all the test cases.
 
 Unit testing is a fundamental practice in software engineering that ensures the
 correctness and reliability of individual components. By writing and maintaining
@@ -252,7 +255,7 @@ idempotent (e.g., writing to a database or making network calls).
 
 **Example**
 
-Here's an example using Python's unittest.mock library to mock a dependency:
+Here's an example using Python's `unittest.mock` library to mock a dependency:
 
 ```python
 import unittest
@@ -284,9 +287,9 @@ if __name__ == '__main__':
     
 In this example:
 
-- The PaymentProcessor class is a dependency of the Order class.
-- A Mock object replaces the PaymentProcessor.
-- The test verifies that the process method of the PaymentProcessor is called
+- The `PaymentProcessor` class is a dependency of the Order class.
+- A `Mock` object replaces the `PaymentProcessor`.
+- The test verifies that the process method of the `PaymentProcessor` is called
   once with the correct amount.
 
 ## Stubs
