@@ -11,7 +11,7 @@ draft = false
 
 ## Centralização e Descentralização ##
 
-### Centralização ###s
+### Centralização ###
 
 A centralização administrativa é caracterizada pela concentração do poder
 decisório em um único órgão ou entidade central. Nesse modelo, as decisões são
